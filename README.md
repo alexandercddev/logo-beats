@@ -1,4 +1,4 @@
-# ![log-beats](https://raw.githubusercontent.com/alexandercddev/log-beats/master/src/assets/images/preview.jpg)
+# ![logo-beats](https://raw.githubusercontent.com/alexandercddev/logo-beats/master/src/assets/images/preview.jpg)
 # Logo Beats
 <table>
 <tr>
