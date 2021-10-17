@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container-beat {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-color: transparent;
+  animation-name: roll-in-left;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: none;
+}
+
+.beat-circle {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 225px;
+  height: 225px;
+  background: #e61b23;
+  border-radius: 50%;
+}
+
+.beat-circle:hover {
+  box-shadow: 5px 5px 15px rgba(43, 42, 42, 0.5);
+}
+
+.beat-rectangle {
+  width: 25px;
+  height: 125px;
+  background: white;
+  position: absolute;
+  z-index: 100;
+  margin-left: -99px;
+  margin-bottom: 113px;
+}
+
+.beat-circle::after {
+  content: "  ";
+  width: 125px;
+  height: 125px;
+  background: white;
+  border-radius: 50%;
+}
+
+.beat-circle::before {
+  content: " ";
+  width: 75px;
+  height: 75px;
+  background: #e61b23;
+  border-radius: 50%;
+  z-index: 100;
+  position: absolute;
+}
+
+@keyframes roll-in-left {
+  0% {
+    transform: translateX(-800px) rotate(-540deg);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0) rotate(0deg);
+    opacity: 1;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
