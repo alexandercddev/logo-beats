@@ -10,11 +10,11 @@
 
 
 ## Demo
-Here is a working live demo: [here](https://alexandercds.github.io/log-beats/)
+Here is a working live demo: [here](https://alexandercds.github.io/logo-beats/)
 
 ### Bug / Feature Request
 
-If you find a bug, kindly open an issue [here](https://github.com/alexandercds/log-beats/issues/new)
+If you find a bug, kindly open an issue [here](https://github.com/alexandercds/logo-beats/issues/new)
 
 ## Built with 
 
